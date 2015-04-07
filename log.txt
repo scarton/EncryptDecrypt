@@ -1,0 +1,6 @@
+Exception in thread "main" javax.crypto.IllegalBlockSizeException: Data must not be longer than 86 bytes
+	at com.sun.crypto.provider.RSACipher.doFinal(RSACipher.java:337)
+	at com.sun.crypto.provider.RSACipher.engineDoFinal(RSACipher.java:382)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2087)
+	at com.rsc.encdec.EncryptDecrypt.encrypt(EncryptDecrypt.java:40)
+	at com.rsc.encdec.EncryptDecrypt.main(EncryptDecrypt.java:140)

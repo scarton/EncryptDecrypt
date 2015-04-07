@@ -1,0 +1,3 @@
+./test.sh enc ./pubkey.der ./input/test.txt ./output/test.txt.enc
+
+./test.sh dec ./prikey.der ./output/test.txt.enc ./output/test.txt.dec
